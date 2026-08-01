@@ -1,22 +1,83 @@
 aid: parallel-universe
 name: Parallel Universe
-description: Parallel Universe is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Parallel Universe Inc. (Parallel Studios) is the Toronto-based game studio behind
+  Parallel, a free-to-play sci-fi trading card game, and the broader Parallel Universe
+  franchise that includes Colony, an AI agent simulation game, and Sanctuary, a
+  third-person extraction shooter. The studio anchors the Echelon Prime web3 gaming
+  ecosystem, where players truly own their cards and in-game items as blockchain assets
+  and the PRIME token powers governance and rewards. Backed by a16z (Andreessen Horowitz)
+  and Paradigm, Parallel is a consumer game franchise distributed via the web, Epic Games,
+  Steam, the Apple App Store, and Google Play. It publishes no public developer / REST API
+  surface today; this profile captures the studio's public web, community, and legal
+  properties as harvested by the API Evangelist enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/parallel-universe/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/prod-assets-parallel-life/images/art/misc/heroes-of-parallel.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Paradigm
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Web3
+- Trading Card Game
+- Blockchain
+- NFT
+- Entertainment
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/parallel-universe-domain-security.yml
+- type: Website
+  url: https://parallel.life/
+- type: Documentation
+  url: https://docs.echelon.io/
+- type: Blog
+  url: https://parallel.life/blog
+- type: Support
+  url: https://parallel.life/faq
+- type: GameManual
+  url: https://parallel.life/game-manual
+- type: SignUp
+  url: https://parallel.life/signup
+- type: Login
+  url: https://parallel.life/login
+- type: TermsOfService
+  url: https://parallel.life/terms-of-use
+- type: PrivacyPolicy
+  url: https://parallel.life/privacy-policy
+- type: Twitter
+  url: https://x.com/ParallelTCG
+- type: Discord
+  url: https://discord.com/invite/paralleltcg
+- type: YouTube
+  url: https://www.youtube.com/@ParallelTCG
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
